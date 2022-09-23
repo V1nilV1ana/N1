@@ -113,10 +113,10 @@ section{
 
     display: grid;
     grid-template-columns: 0.2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: .1fr .2fr;
     grid-template-areas: "i1 t1"
                          "c1 c1";
-    row-gap: 3em;
+    row-gap: 1em;
 }
 
 .gLogo1{
@@ -127,8 +127,10 @@ section{
     margin-left:1% ;
     grid-area: t1;
 }
-#imgC1{
+#conteudoBB{
     grid-area: c1;
+    flex-direction: column;
+    gap: 20px;
 }
 /*Fim artigo 1*/
 
