@@ -94,17 +94,16 @@ header{
 
 section{
     padding: 1em;
-    background-color: #EEE8E8;
+    background: rgb(84,71,92);
+    background: linear-gradient(312deg, rgb(104, 80, 118) 0%, rgba(131,110,143,1) 55%, rgb(166, 128, 190) 100%);
     grid-area: s;
     box-sizing: border-box;
     height: fit-content;
     width: fit-content;
     text-align:justify;
-    border-style:none;
-    border-radius: 5px;
-    border-color:  #ffff;    
-    box-shadow: 0 0 10px #E5E4E2;
-    color: #191716;
+    border-style:solid;
+    border-color: rgba(131,110,143,1) ;    
+    color: #E5E4E2;
 
 }
 
@@ -203,12 +202,17 @@ section{
 
 
 aside{
-    background-color:white;
+    background: rgb(84,71,92);
+    background: linear-gradient(312deg, rgba(84,71,92,1) 0%, rgba(131,110,143,1) 55%, rgba(212,179,232,1) 100%);
     grid-area: a;
     height: fit-content;
-    border-style:none;
+    border-style:solid;
+    border-color: rgba(131,110,143,1);
     border-radius: 5px;
-    box-shadow: 0 0 10px #E5E4E2;
+    padding: 1.5%;
+    margin: 1.5%;
+    text-align: center;
+    color: #E8EDDF;
     
 }
 
