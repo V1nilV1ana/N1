@@ -31,16 +31,24 @@ h1, h2, h3
     font-family: 'Anton', sans-serif;
     text-align: center;
     margin: 2%;
-    color: 	#800000; 
+    color: 	#a00202; 
     text-decoration:underline;
     letter-spacing: 2px;
 }
 h2, h3{
     font-size: 1.5rem;
 }
+h3{
+    color:#800000; 
+}
 
 p{
     max-width: 30cm;
+}
+
+.imgsize
+{
+  max-width: 100%;
 }
 
 
@@ -78,7 +86,8 @@ header{
 
 .logo{
     margin: 1%;
-    width: 3%;
+    max-width: 100%;
+    width: 9%;
     margin-right: auto;
 }
 
@@ -128,6 +137,7 @@ section{
 
 .gLogo1{
     grid-area: i1; 
+    max-width: 100%;
 }
 
 .text1{
@@ -153,9 +163,9 @@ section{
     
 }
 
-.gLVamp{
+.gLogo2{
     grid-area: i2;
-    height: min-content;
+    max-width: 100%;
     
 }
 .text2{
@@ -183,7 +193,7 @@ section{
 
 .gLogo3{
     grid-area: i3;
-    
+    max-width: 100%;
 }
 .text3{
     margin-top:2%;
@@ -227,72 +237,4 @@ footer{
     color: #E8EDDF;
     text-align: center;
     border-style:none;
-  }
-
-  @media (max-width: 768px)
-  {
-
-    .grid{
-        margin: auto;
-        padding: 1%;
-        grid-template-columns: 1fr ;
-        grid-template-rows:  .1fr .1fr .1fr .1fr;
-        
-    }
-    section{
-        width: min-content;
-    }
-    #Bloodborne
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:  .1fr .1fr .1fr;
-    grid-template-areas: "i1"
-                         "t1"
-                         "c1";
-    gap: 1em;
-    justify-items: center;
-    align-items: center;
-}
-
-#Vampire_Survivors
-{
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows: .1fr .1fr .1fr;
-    grid-template-areas: "i2"
-                         "t2"
-                         "c";
-    gap: 3rem;
-    justify-items: center;
-    align-items: center;
-}
-
-#Disco
-{
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr;
-    grid-template-areas: "i3"
-                         "t3"
-                         "c3";
-    gap: .1em;
-    justify-items: center;
-    align-items: center;
-}
-
-p{
-    max-width: 15cm;
-}
-
-.imgsize
-{
-    max-width: 100%;
-}
-
-aside{
-    padding: 0%;
-}
-
-
   }

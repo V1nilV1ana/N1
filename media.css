@@ -1,0 +1,89 @@
+
+
+@media screen and (max-width: 965px)
+{
+
+  .grid{
+      margin: auto;
+      padding: 1%;
+      grid-template-columns: 1fr ;
+      grid-template-rows:  .1fr .1fr .1fr .1fr;
+      
+  }
+
+  #Bloodborne
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:  .1fr .1fr .1fr;
+  grid-template-areas: "i1"
+                       "t1"
+                       "c1";
+  gap: 1em;
+  justify-items: center;
+  align-items: center;
+}
+
+#Vampire_Survivors
+{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: .1fr .1fr .1fr;
+  grid-template-areas: "i2"
+                       "t2"
+                       "c";
+  gap: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+#Disco
+{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr;
+  grid-template-areas: "i3"
+                       "t3"
+                       "c3";
+  gap: .1em;
+  justify-items: center;
+  align-items: center;
+}
+
+p{
+  max-width: 15cm;
+}
+
+#vsrunConjunto{
+margin-left: 8%;
+}
+
+}
+
+
+@media screen and (max-width: 705px){
+    p
+    {
+        max-width: 18cm;
+    }
+    h2
+    {
+        font-size: 1.5rem;
+    }
+    iframe
+    {
+        width: 400px;
+    }
+    .imgsize 
+    {
+        width: 70%; 
+    }
+    .gLogo
+    {
+        width: 70%;
+    }
+    #vsrunConjunto{
+        margin-left: 25%;
+        }
+
+}
