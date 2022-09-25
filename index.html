@@ -7,12 +7,16 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css"href="media.css">
     <title>Cantinho do V</title>
+    <script src="menu.js" defer></script>
 </head>
 <body>
         <div class="grid">
         <header>
             <img class="logo" src="img/logo.png" alt="placeholder"/>
-            <nav class="nav_link">
+            
+            <button class="mobile_nav" aria-controls="nav_link" aria-expanded="false"></button>
+            
+            <nav class="nav_link" data-visible="false">
                 <ul>
 
                     <li><a href="#about" id="start">Sobre</a></li>
@@ -38,6 +42,7 @@
                 </div>
                 <div></div>
                 <div class="imgContainer" id="conteudoBB">
+                    <h2>Um mundo cheio de misterios e  com perigos em todos os cantos</h2>
                     <p>O que aconteceu com esse lugar, com as pessoas, o que são essas criaturas e de onde elas vieram? Isso tem haver com o sangue que o seu Hunter veio atrás desse velho sangue? E mais uma coisa, porque quanto mais longe você vai e mais tempo passa mais estranho as coisas ficam?</p>
                     <img class="imgsize" class="imgsize"src="img/BB/Bloodborne-Screenshot.jpg" alt="traveller">
                     <p>Essas perguntas e muitas outra são umas das razões pela qual esse jogo me fascina, por que só jogando o jogo normalmente  você só vai ter um pouco da história,

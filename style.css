@@ -8,7 +8,7 @@
    
 }
 body{
-    background: linear-gradient(270deg, rgba(4,0,29,1) 0%, rgba(0,26,121,1) 19%, rgba(226,88,34,1) 75%, rgba(227,171,87,1) 100%); 
+    background: linear-gradient(270deg, #04001d 0%, #001a79 19%, #e25822 75%, #e3ab57 100%); 
     max-width: 1280px;
     min-height: 100vh;
     width: 100%;
@@ -18,6 +18,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
+   /* overflow-x: hidden;*/
 }
 li, a{
     text-decoration:none;
@@ -90,7 +91,9 @@ header{
     width: 9%;
     margin-right: auto;
 }
-
+.mobile_nav{
+    display: none;
+}
 .nav_link{
     list-style: none;
 }
@@ -104,6 +107,8 @@ header{
     transition: all .3s ease-in-out 0s;
     color: #E5E4E2;
 }
+
+
 
 .nav_link li a:hover{
     color:  #800000;
@@ -219,7 +224,7 @@ section{
 
 
 aside{
-    background: rgb(84,71,92);
+    background: #54475c;
     background: linear-gradient(312deg, rgba(84,71,92,1) 0%, rgba(131,110,143,1) 55%, rgba(212,179,232,1) 100%);
     grid-area: a;
     border-style:solid;
