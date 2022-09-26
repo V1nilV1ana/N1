@@ -183,7 +183,16 @@ section{
     grid-area: c;
     flex-direction: column;
     gap: 20px;
+    
 }
+
+#vsrunConjunto{
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    }
 
 
 #Disco

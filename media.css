@@ -1,4 +1,17 @@
-
+@media screen and (max-width: 1175px)
+{
+  #Disco {
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr;
+  grid-template-areas: "i3"
+                       "t3"
+                       "c3";
+  gap: .1em;
+  justify-items: center;
+  align-items: center;  
+  }
+}
 
 @media screen and (max-width: 965px)
 {
@@ -38,25 +51,14 @@
   align-items: center;
 }
 
-#Disco
-{
-  display: grid;
-  grid-template-columns:1fr;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr;
-  grid-template-areas: "i3"
-                       "t3"
-                       "c3";
-  gap: .1em;
-  justify-items: center;
-  align-items: center;
-}
 
 p{
   max-width: 15cm;
 }
 
 #vsrunConjunto{
-margin-left: 8%;
+
+flex-direction: column;
 }
 
 }
@@ -90,7 +92,7 @@ margin-left: 8%;
     display: block;
     position: fixed;
     background-color: transparent;
-    background-image: url('img/menu.svg');
+    background-image: url('img/Hamburger_icon_white.svg');
     background-repeat: no-repeat;
     width: 2rem;
     aspect-ratio: 1;
@@ -132,4 +134,31 @@ margin-left: 8%;
   .nav_link{
     padding:10rem;
   }
+}
+
+@media screen and (max-width: 444px){
+  p
+  {
+      max-width: 6cm;
+  }
+  h1, h2
+  {
+      font-size: 1rem;
+  }
+  iframe
+  {
+      width: 300px;
+  }
+  .imgsize 
+  {
+      width: 70%; 
+  }
+  .gLogo
+  {
+      width: 70%;
+  }
+  #vsrunConjunto{
+      margin-left: 25%;
+      }
+
 }
