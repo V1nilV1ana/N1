@@ -12,3 +12,8 @@
         nav_link.setAttribute("aria-expanded", false);
     }
   });
+  nav_link.onclick = function(){
+    nav_link.setAttribute("data-visible",false);
+  }
+
+
